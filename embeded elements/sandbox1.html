@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            iframe sandbox attr
+        </title>
+    </head>
+    <style>
+        a{
+            text-decoration: solid;
+            color:green;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    </style>
+    <body>
+        <iframe src="basicimage.html" name="halo" sandbox></iframe><br><br>
+        <iframe src="basicimage.html" name="halo"></iframe>
+        <div>
+        <a href="basicimage.html" target="myframe">Click here</a><br>
+        <iframe name="myframe" sandbox="allow-same-origin allow-top-navigation"></iframe>
+        </div>
+        <a href="iframes.html" target="myframes">Click here</a><br>
+        <iframe name="myframes" sandbox="allow-same-origin allow-top-navigation" width="800" height="500"></iframe><br>
+        <a href="form.html" target="myform">Click here</a><br>
+        <iframe name="myform" sandbox></iframe><br>
+        <a href="form.html" target="myforms">Click here</a><br>
+        <iframe name="myforms" sandbox="allow-forms"></iframe><br>
+        <iframe src="basicimage.html" sandbox="allow-top-navigation allow-same-origin"></iframe><br>
+        <iframe src="basicimage.html" sandbox="allow-popups allow-same-origin allow-top-navigation"></iframe><br>
+        <iframe src="javascript.html" sandbox=""></iframe>
+
+
+
+    </body></html>

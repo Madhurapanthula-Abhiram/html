@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>form tags</title>
+        <meta http-equiv="content-security-policy" content="default-src 'self' http://xyz.com">
+        </head>
+        <body>
+            <form>
+                <h3>Sign Up details</h3>
+                <label for="username">First Name:</label>
+                <input type="text" name="username" id="username" placeholder="first name">
+                </div>
+                <div>
+                <label for="username">Last Name:</label>
+                <input type="text" name="username" id="username" placeholder="last name">
+                </div>
+                <div>
+                <label for="email">Enter Email:</label>
+                <input type="email" name="email" id="email" placeholder="enter mail">
+                </div>
+                <div> 
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="enter password"></div>
+                Gender:
+                <input type="radio" name="Male" id="Male" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Female" id="Female">
+                <label for="Female">Female</label><br>
+                <label for="DOB">DOB:</label>
+                <input type="datetime-local" name="DOB" id="DOB" placeholder="dd//mm//yyyy"><br>
+                <div>
+                <label for="ck">Hobbies:</label></div>
+                <div><input type="checkbox" name="check" id="ck" value="checked">Sports</div>
+                <div><input type="checkbox" name="check" id="ck" value="checked">Art</div>
+                <div><input type="checkbox" name="check" id="ck" value="checked">Reading books</div>
+                <div>
+                <label for="week">WEEK's you attend:</label><br>
+                <input type="week" name="week" id="week">
+                </div>
+                <label for="month" >Select a month</label><br>
+                <input type="month" name="month" id="month"><br>
+                <label for="image">Uplaod image:</label><br>
+                <input type="image" name="image" id="image"><br>
+                <label for="color">select color:</label>
+                <input type="color" name="color" id="color"><br>
+                Country Code:<select>
+                    <option value="+91">+91</option>
+                    <option value="+200">+200</option>
+                    <option value="+300">+300</option>
+                </select><br>
+                Country:<input list="Countries" placeholder="Select country">
+                <datalist id="Countries">
+                    <option value="India"></option>
+                    <option value="England"></option>
+                    <option value="China"></option>
+                    <option value="Australia"></option>
+                </datalist><br>
+                Volume:    <input type="range"><br>
+                Progress:<progress min="0" max="100" value="70">70 of 100</progress><br>   
+                <input type="submit" value="submit"><br>
+                <input type="search" value="search">   
+                     </form>
+
+        </body>
+</html>
